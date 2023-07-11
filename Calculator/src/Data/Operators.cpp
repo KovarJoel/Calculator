@@ -36,11 +36,11 @@ namespace Calculator::Data {
 		
 		using asso = Operator::Associativity;
 		std::vector<Operator> ops = {
-			{"^", FunctionData::pow, 3, asso::rightToLeft},
-			{"*", FunctionData::multiply, 2, asso::leftToRight},
-			{"/", FunctionData::divide, 2, asso::leftToRight},
+			{"^", FunctionData::pow, 5, asso::rightToLeft},
+			{"/", FunctionData::divide, 4, asso::leftToRight},
+			{"*", FunctionData::multiply, 3, asso::leftToRight},
+			{"-", FunctionData::subtract, 2, asso::leftToRight},
 			{"+", FunctionData::add, 1, asso::leftToRight},
-			{"-", FunctionData::subtract, 1, asso::leftToRight}
 		};
 		
 		for (const auto& op : ops)
