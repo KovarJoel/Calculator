@@ -1,6 +1,6 @@
 # Console Calculator in C++
 
-### Video Demo:  <URL HERE>
+### Video Demo:  [Console Calculator in C++ - CS50 Final Project](https://youtu.be/GR6V2Qty9eA)
 
 ## Description:
 
